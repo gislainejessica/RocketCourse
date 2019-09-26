@@ -1,0 +1,17 @@
+{
+  "name": "Es6",
+  "version": "1.0.0",
+  "description": "\"Introdução ao Javascript Es6+\"",
+  "main": "index.js",
+  "author": "Gislaine Jéssica",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
+  },
+  "scripts": {
+    "dev": "babel ./principal.js -o ./bundle.js -w"
+  }
+}
